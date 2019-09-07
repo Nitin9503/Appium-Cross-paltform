@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AppiumCrossPlatform">
+<!-- <listeners>
+  		    
+  		    <listener class-name = "com.master.qa.util.CustomListener" />
+  		      
+  		</listeners> -->
+ <test name="AppiumCrossPlatformTest">
+ <classes>
+      <class name="com.qa.appium.Testcases.HomeTest" /> 
+        <class name="com.qa.appium.Testcases.GuestTest" /> 
+      <!-- <class name="com.qa.appium.testcases.OrderTest" /> -->
+ </classes>
+ </test>
+</suite>
